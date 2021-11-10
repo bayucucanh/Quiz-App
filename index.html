@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quiz App</title>
   <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
 </head>
 <body>
   <!-- Tombol Mulai -->
@@ -27,6 +30,50 @@
       <button class="quit">Keluar</button>
       <button class="restart">Lanjutkan</button>
     </div>
+  </div>
+
+  <!-- Quiz -->
+  <div class="quiz_box">
+    <header>
+      <div class="title">Quiz App</div>
+      <div class="timer">
+        <div class="time_text">Sisa Waktu</div>
+        <div class="timer_sec">15</div>
+      </div>
+    </header>
+    <section>
+      <div class="que_text">
+        <span>Siapa nama penemu Javascript?</span>
+      </div>
+      <div class="option_list">
+        <div class="option">
+          <span>Brendan Eich</span>
+          <div class="icon tick">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div class="option">
+          <span>Alan Turing</span>
+          <div class="icon cross">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div class="option">
+          <span>Taylor Otwell</span>
+        </div>
+        <div class="option">
+          <span>James Gosling</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quiz Footer -->
+    <footer>
+      <div class="total_que">
+        <span><p>2</p>dari <p>5</p> <p>Pertanyaan</p></span>
+      </div>
+      <button class="next_btn">Selanjutnya</button>
+    </footer>
   </div>
 
   <!-- Javascript -->
